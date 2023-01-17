@@ -1,0 +1,177 @@
+#Stage Clear
+Special/stageclear.ogg
+
+#Main Menu
+Menu/menu.ogg
+
+#Tournament Menu
+Menu/tournamentmenu.ogg
+
+#Tournament Over
+Special/tournamentover.ogg
+
+
+#These music files will be used for the music categories listed.  In
+#addition, all files places in subdirectories labeled "Land",
+#"Underground", etc will be read into those categories as well.
+
+[Land]
+SMB1-Land.spc
+SMB1-Forest.spc
+SMB2-Land.spc
+SMB3-Land.spc
+SMW-Land.spc
+SMW-Forest.spc
+YI-Land.spc
+YI-Land2.spc
+SMK-DonutPlains.spc
+
+[Underground]
+SMB2-Underground.spc
+SMB1-3-Underground.spc
+SMW-Underground.spc
+YI-Underground.spc
+
+[Underwater]
+SMB1-Water.spc
+SMB3-Water.spc
+SMW-Water.spc
+
+[Castle]
+SMB1-Castle.spc
+SMB1-Airship.spc
+SMB1-Battle.spc
+SMB3-Castle.spc
+SMB3-Airship.spc
+SMB3-Boss.spc
+SMW-Castle.spc
+SMW-Airship.spc
+SMK-BowserCastle.spc
+
+#These are not needed (see ReadMe.txt), because they have the same
+#tracks as the above 4 categories, but I included them for easy editing
+#purposes.
+
+[Platforms]
+SMB1-Land.spc
+SMB1-Athletic.spc
+SMB1-Airship.spc
+SMB2-Land.spc
+SMB3-Land.spc
+SMB3-Athletic.spc
+SMB3-Airship.spc
+SMW-Athletic.spc
+SMW-Forest.spc
+YI-Athletic.spc
+SMK-MarioCircuit.spc
+
+[Ghost]
+SMB1-Ghost.spc
+SMB1-3-Underground.spc
+SMB1-Castle.spc
+SMB2-Underground.spc
+SMB3-Ghost.spc
+SMB3-Castle.spc
+SMW-Ghost.spc
+YI-Castle.spc
+SMK-GhostValley.spc
+
+[Bonus]
+SMB1-Bonus.spc
+SMB3-Sky.spc
+SMW-Bonus.spc
+SMK-RainbowRoad.spc
+
+[Battle]
+SMB1-Boss.spc
+SMB2-Boss.spc
+SMB2-Wart.spc
+SMB3-Battle.spc
+SMB3-Airship.spc
+SMB3-Boss.spc
+SMB3-Bowser.spc
+SMW-Boss.spc
+SMW-Bowser.spc
+SMW-Airship.spc
+YI-MiniBoss.spc
+YI-BigBoss.spc
+YI-Bowser.spc
+
+[Desert]
+SMB1-Desert.spc
+SMB1-Land.spc
+SMB2-Land.spc
+SMB3-Land.spc
+SMW-Desert.spc
+SMW-Land.spc
+SMK-ChocoValley.spc
+
+[Clouds]
+SMB1-Land.spc
+SMB1-Athletic.spc
+SMB1-Airship.spc
+SMB2-Land.spc
+SMB3-Land.spc
+SMB3-Athletic.spc
+SMB3-Sky.spc
+SMB3-Airship.spc
+SMW-Land.spc
+SMW-Athletic.spc
+SMW-Airship.spc
+YI-Athletic.spc
+SMK-KoopaBeach.spc
+
+[Snow]
+SMB1-Snow.spc
+SMB1-Land.spc
+SMB2-Land.spc
+SMB3-Snow.spc
+SMB3-Land.spc
+SMB3-Athletic.spc
+SMW-Snow.spc
+SMW-UndergroundIce.spc
+SMK-VanillaLake.spc
+
+#These are special tags that allow you to force which music is played
+#for a specific map or a specific background.  Please use these 
+#in moderation as the map makers choose music categories that are 
+#approprate for their maps.  
+
+#When adding a map, you must use the map's display name and it must be
+#capitalized.  For example, if the name of the map is "two52_cave.map",
+#please use "Cave" as the map name below
+[Maps]
+#0smw,smb3level1.ogg,M2_Level1.ogg
+
+[Backgrounds]
+#Land_Classic.png,smb3level1.ogg,M2_Level1.ogg
+
+#Mapping of how the old backgrounds map to the new music categories by
+#default.
+
+#0: Land
+#1: Castle
+#2: Land
+#3: Ghost
+#4: Underground
+#5: Platforms
+#6: Castle
+#7: Platforms
+#8: Land
+#9: Land
+#10: Underground
+#11: Land
+#12: Platforms
+#13: Land
+#14: Land
+#15: Battle
+#16: Platforms
+#17: Underground
+#18: Underground
+#19: Bonus
+#20: Platforms
+#21: Battle
+#22: Bonus
+#23: Castle
+#24: Land
+#25: Platforms
