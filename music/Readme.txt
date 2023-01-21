@@ -88,3 +88,7 @@ Platform -> Land
 Ghost -> Underground
 Bonus -> Underwater
 Battle -> Castle
+
+Credits
+-------------
+Most of these were borrowed from LadiesMan217's Complete Super Mario All-Stars Soundtrack Pack, of course, the rest belong to Nintendo.
